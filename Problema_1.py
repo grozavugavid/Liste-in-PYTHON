@@ -1,0 +1,12 @@
+n=[1,3,-5,8,9,-10,7,0,-4]
+print(n)
+x=sorted(n)
+print(x)
+x.sort(reverse=True)
+print(x)
+print(len(n))
+print(max(n))
+print(min(n))
+print(n+[111])
+n[2]=222
+print(n)
